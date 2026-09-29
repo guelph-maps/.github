@@ -23,11 +23,15 @@ unnamed.</sub></p>
 <sub>100 match cleanly · 16 missing · 7 named differently · 3 unnamed in OSM</sub>
 </td>
 <td valign="top" width="50%">
-<sub><i>More in progress:</i> pitches, transit stops, stormwater basins, bike
-facilities, truck routes, trails, community gardens.</sub>
+<b><a href="https://guelph-maps.github.io/guelph-address-layer/">guelph-address-layer</a></b><br>
+<sub>53,847 City address points, drawn as house numbers · <a href="https://github.com/guelph-maps/guelph-address-layer"><code>code</code></a></sub><br>
+<sub>40,634 civic addresses · 6.2% still missing from OSM · units on a quarter of rows · rebuilt daily</sub>
 </td>
 </tr>
 </table>
+
+<p><sub><i>More in progress:</i> pitches, transit stops, stormwater basins, bike
+facilities, truck routes, trails, community gardens.</sub></p>
 
 <h3>Watchers</h3>
 
@@ -36,7 +40,7 @@ rows, records that were never real — a layer is not enough. These keep a
 per-record history and somewhere to write down what a human decided.</sub></p>
 
 <p><sub>
-<a href="https://github.com/guelph-maps/guelph-address-import">guelph-address-import</a> — continuous gap-fill and QA over Guelph's completed 2025 address import ·
+<a href="https://github.com/guelph-maps/guelph-address-import">guelph-address-import</a> — continuous gap-fill and QA over Guelph's completed 2025 address import, the watcher behind the address layer ·
 <a href="https://github.com/guelph-maps/guelph-pitches-beholder">guelph-pitches-beholder</a> — 191 courts and sports fields, 162 of them unnamed in OSM
 </sub></p>
 
