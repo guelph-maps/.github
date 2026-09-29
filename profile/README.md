@@ -41,6 +41,7 @@ per-record history and somewhere to write down what a human decided.</sub></p>
 
 <p><sub>
 <a href="https://github.com/guelph-maps/guelph-address-import">guelph-address-import</a> — continuous gap-fill and QA over Guelph's completed 2025 address import, the watcher behind the address layer ·
+<a href="https://github.com/guelph-maps/guelph-beholder">guelph-beholder</a> — per-record readings of how completely and correctly the address points sit in OSM, over time ·
 <a href="https://github.com/guelph-maps/guelph-pitches-beholder">guelph-pitches-beholder</a> — 191 courts and sports fields, 162 of them unnamed in OSM
 </sub></p>
 
