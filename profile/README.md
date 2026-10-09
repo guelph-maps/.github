@@ -51,7 +51,12 @@ unnamed.</sub></p>
 <sub>3,537 City fire hydrants, matched by position · <a href="https://guelph-maps.github.io/guelph-hydrants-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-hydrants-layer"><code>code</code></a></sub><br>
 <sub>3,391 missing · 83 lacking a position · 16 lacking a type · 6 placed 10–30 m off in OSM</sub>
 </td>
-<td valign="top" width="50%"></td>
+<td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-trees-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-trees-layer.jpg" alt="City street and park trees as crowns coloured by genus around Royal City Park" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-trees-layer/">guelph-trees-layer</a></b><br>
+<sub>42,712 City street and park trees, by genus · <a href="https://guelph-maps.github.io/guelph-trees-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-trees-layer"><code>code</code></a></sub><br>
+<sub>34,523 with no OSM tree within 5 m · 452 cells with none at all · 8,032 mapped without species</sub>
+</td>
 </tr>
 </table>
 
