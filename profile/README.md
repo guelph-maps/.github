@@ -28,9 +28,21 @@ unnamed.</sub></p>
 <sub>40,634 civic addresses · 6.2% still missing from OSM · units on a quarter of rows · rebuilt daily</sub>
 </td>
 </tr>
+<tr>
+<td valign="top" width="50%">
+<b><a href="https://guelph-maps.github.io/guelph-buildings-layer/">guelph-buildings-layer</a></b><br>
+<sub>38,945 City building outlines, for tracing · <a href="https://guelph-maps.github.io/guelph-buildings-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-buildings-layer"><code>code</code></a></sub><br>
+<sub>1,354 with no OSM building on them · 511 more under 30 m² · 111 drawn from site plans</sub>
+</td>
+<td valign="top" width="50%">
+<b><a href="https://guelph-maps.github.io/guelph-bus-stops-layer/">guelph-bus-stops-layer</a></b><br>
+<sub>648 Guelph Transit stops, matched by stop number · <a href="https://guelph-maps.github.io/guelph-bus-stops-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bus-stops-layer"><code>code</code></a></sub><br>
+<sub>111 missing · 9 lacking a ref · 68 unnamed · 9 named differently in OSM</sub>
+</td>
+</tr>
 </table>
 
-<p><sub><i>More in progress:</i> pitches, transit stops, stormwater basins, bike
+<p><sub><i>More in progress:</i> pitches, stormwater basins, bike
 facilities, truck routes, trails, community gardens.</sub></p>
 
 <h3>Watchers</h3>
