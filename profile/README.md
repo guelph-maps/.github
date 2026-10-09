@@ -18,11 +18,13 @@ unnamed.</sub></p>
 <table>
 <tr>
 <td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-parks-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-parks-layer.jpg" alt="City park outlines and names over a grey OSM map of central Guelph" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-parks-layer/">guelph-parks-layer</a></b><br>
-<sub>126 City parks against OSM · <a href="https://guelph-maps.github.io/guelph-parks-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-parks-layer"><code>code</code></a></sub><br>
+<sub>126 City parks, outlined and named · <a href="https://guelph-maps.github.io/guelph-parks-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-parks-layer"><code>code</code></a></sub><br>
 <sub>100 match cleanly · 16 missing · 7 named differently · 3 unnamed in OSM</sub>
 </td>
 <td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-address-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-address-layer.jpg" alt="City address points drawn as house numbers, coloured by street, near Woolwich Street" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-address-layer/">guelph-address-layer</a></b><br>
 <sub>53,847 City address points, drawn as house numbers · <a href="https://github.com/guelph-maps/guelph-address-layer"><code>code</code></a></sub><br>
 <sub>40,634 civic addresses · 6.2% still missing from OSM · units on a quarter of rows · rebuilt daily</sub>
@@ -30,13 +32,15 @@ unnamed.</sub></p>
 </tr>
 <tr>
 <td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-buildings-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-buildings-layer.jpg" alt="City building outlines in violet over downtown Guelph" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-buildings-layer/">guelph-buildings-layer</a></b><br>
 <sub>38,945 City building outlines, for tracing · <a href="https://guelph-maps.github.io/guelph-buildings-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-buildings-layer"><code>code</code></a></sub><br>
 <sub>1,354 with no OSM building on them · 511 more under 30 m² · 111 drawn from site plans</sub>
 </td>
 <td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-bus-stops-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-bus-stops-layer.jpg" alt="Guelph Transit stops as blue dots with stop numbers around Guelph Central Station" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-bus-stops-layer/">guelph-bus-stops-layer</a></b><br>
-<sub>648 Guelph Transit stops, matched by stop number · <a href="https://guelph-maps.github.io/guelph-bus-stops-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bus-stops-layer"><code>code</code></a></sub><br>
+<sub>648 Guelph Transit stops, by stop number · <a href="https://guelph-maps.github.io/guelph-bus-stops-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bus-stops-layer"><code>code</code></a></sub><br>
 <sub>111 missing · 9 lacking a ref · 68 unnamed · 9 named differently in OSM</sub>
 </td>
 </tr>
