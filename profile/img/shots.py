@@ -12,6 +12,7 @@ LAYERS = {
     "guelph-address-layer": (43.5512, -80.2598, 18),
     "guelph-buildings-layer": (43.5448, -80.2500, 17),
     "guelph-bus-stops-layer": (43.5452, -80.2468, 16),
+    "guelph-hydrants-layer": (43.5150, -80.1770, 16),
 }
 only = sys.argv[2:] or list(LAYERS)
 

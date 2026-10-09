@@ -44,6 +44,15 @@ unnamed.</sub></p>
 <sub>111 missing · 9 lacking a ref · 68 unnamed · 9 named differently in OSM</sub>
 </td>
 </tr>
+<tr>
+<td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-hydrants-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-hydrants-layer.jpg" alt="City fire hydrants as red dots along the streets of south-east Guelph" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-hydrants-layer/">guelph-hydrants-layer</a></b><br>
+<sub>3,537 City fire hydrants, matched by position · <a href="https://guelph-maps.github.io/guelph-hydrants-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-hydrants-layer"><code>code</code></a></sub><br>
+<sub>3,391 missing · 83 lacking a position · 16 lacking a type · 6 placed 10–30 m off in OSM</sub>
+</td>
+<td valign="top" width="50%"></td>
+</tr>
 </table>
 
 <p><sub><i>More in progress:</i> pitches, stormwater basins, bike
