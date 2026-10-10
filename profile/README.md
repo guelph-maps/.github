@@ -65,11 +65,17 @@ unnamed.</sub></p>
 <sub>93 City stormwater basins, wet and dry, with the creek corridors · <a href="https://guelph-maps.github.io/guelph-water-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-water-layer"><code>code</code></a></sub><br>
 <sub>33 missing · 50 mapped as plain water · 7 tagged as basins · 7 named creeks unnamed in OSM</sub>
 </td>
+<td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-gardens-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-gardens-layer.jpg" alt="City community gardens as green dots with names, and pollinator patches as amber dots, around Exhibition Park and downtown Guelph" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-gardens-layer/">guelph-gardens-layer</a></b><br>
+<sub>43 City community gardens and 27 pollinator patches, outlined where the City has drawn them · <a href="https://guelph-maps.github.io/guelph-gardens-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-gardens-layer"><code>code</code></a></sub><br>
+<sub>23 missing · 3 newest gardens with no City outline and nothing in OSM · 3 unnamed · 3 named differently · 1 not tagged as a community garden in OSM</sub>
+</td>
 </tr>
 </table>
 
 <p><sub><i>More in progress:</i> pitches, bike facilities, truck routes,
-trails, community gardens.</sub></p>
+trails.</sub></p>
 
 <h3>Watchers</h3>
 
