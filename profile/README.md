@@ -58,10 +58,18 @@ unnamed.</sub></p>
 <sub>34,523 with no OSM tree within 5 m · 452 cells with none at all · 8,032 mapped without species</sub>
 </td>
 </tr>
+<tr>
+<td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-water-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-water-layer.jpg" alt="City stormwater basins in blue, dry basins hatched, beside the Hanlon Creek corridor in south Guelph" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-water-layer/">guelph-water-layer</a></b><br>
+<sub>93 City stormwater basins, wet and dry, with the creek corridors · <a href="https://guelph-maps.github.io/guelph-water-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-water-layer"><code>code</code></a></sub><br>
+<sub>33 missing · 50 mapped as plain water · 7 tagged as basins · 7 named creeks unnamed in OSM</sub>
+</td>
+</tr>
 </table>
 
-<p><sub><i>More in progress:</i> pitches, stormwater basins, bike
-facilities, truck routes, trails, community gardens.</sub></p>
+<p><sub><i>More in progress:</i> pitches, bike facilities, truck routes,
+trails, community gardens.</sub></p>
 
 <h3>Watchers</h3>
 
