@@ -72,6 +72,16 @@ unnamed.</sub></p>
 <sub>23 missing · 3 newest gardens with no City outline and nothing in OSM · 3 unnamed · 3 named differently · 1 not tagged as a community garden in OSM</sub>
 </td>
 </tr>
+<tr>
+<td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-sidewalks-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-sidewalks-layer.jpg" alt="City sidewalks as cyan lines along West Acres Drive and Queensdale Crescent in west Guelph" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-sidewalks-layer/">guelph-sidewalks-layer</a></b><br>
+<sub>716 km of City sidewalk, for tracing · <a href="https://guelph-maps.github.io/guelph-sidewalks-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-sidewalks-layer"><code>code</code></a></sub><br>
+<sub>70 km with no OSM line within 15 m · 100 streets with ≥0.2 km each · 33 footways to tag as sidewalks</sub>
+</td>
+<td valign="top" width="50%">
+</td>
+</tr>
 </table>
 
 <p><sub><i>More in progress:</i> pitches, bike facilities, truck routes,
