@@ -83,7 +83,7 @@ unnamed.</sub></p>
 <a href="https://guelph-maps.github.io/guelph-bike-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-bike-layer.jpg" alt="City bike facilities coloured by type around Guelph Central Station: painted lanes in blue, buffered in violet, cycle tracks in green, a signed route dashed amber, crossrides in pink" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-bike-layer/">guelph-bike-layer</a></b><br>
 <sub>210 km of City bike lanes, tracks, paths and signed routes, by type · <a href="https://guelph-maps.github.io/guelph-bike-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bike-layer"><code>code</code></a></sub><br>
-<sub>15 new City installs not in OSM · 22 lanes missing their separation · 16 unsigned routes · rebuilt weekly</sub>
+<sub>15 new City installs not in OSM · 22 lane segments without their buffer · 16 unsigned route segments · rebuilt weekly</sub>
 </td>
 </tr>
 </table>
