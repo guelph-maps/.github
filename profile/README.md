@@ -80,12 +80,15 @@ unnamed.</sub></p>
 <sub>70 km with no OSM line within 15 m · 100 streets with ≥0.2 km each · 33 footways to tag as sidewalks</sub>
 </td>
 <td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-bike-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-bike-layer.jpg" alt="City bike facilities coloured by type around Guelph Central Station: painted lanes in blue, buffered in violet, cycle tracks in green, a signed route dashed amber, crossrides in pink" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-bike-layer/">guelph-bike-layer</a></b><br>
+<sub>210 km of City bike lanes, tracks, paths and signed routes, by type · <a href="https://guelph-maps.github.io/guelph-bike-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bike-layer"><code>code</code></a></sub><br>
+<sub>15 new City installs not in OSM · 22 lanes missing their separation · 16 unsigned routes · rebuilt weekly</sub>
 </td>
 </tr>
 </table>
 
-<p><sub><i>More in progress:</i> pitches, bike facilities, truck routes,
-trails.</sub></p>
+<p><sub><i>More in progress:</i> pitches, truck routes, trails.</sub></p>
 
 <h3>Watchers</h3>
 
