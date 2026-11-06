@@ -9,9 +9,30 @@ actually happens.
 <p><sub><i>Guelph is not a blank map. The gap is rarely the features; it is
 almost always the attributes.</i></sub></p>
 
+<h3>For people on bikes</h3>
+
+<p><sub>Maps for riders rather than mappers, built from OpenStreetMap.</sub></p>
+
+<table>
+<tr>
+<td valign="top" width="50%">
+<a href="https://guelph.bike/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-bike-parking.jpg" alt="Bike parking pins by rack type across central Guelph, with the number of spaces on each" width="100%"></a><br>
+<b><a href="https://guelph.bike/">guelph.bike</a></b><br>
+<sub>486 bike parking locations and 3,750 spaces, by rack type · <a href="https://github.com/guelph-maps/guelph-bike-parking"><code>code</code></a></sub><br>
+<sub>Includes GCAT's rack survey · works with no signal · embeds in any site</sub>
+</td>
+<td valign="top" width="50%">
+<a href="https://skfd.github.io/guelph-plaza-bike-parking/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-plaza-bike-parking.jpg" alt="Page headed Bike parking at Guelph's plazas, with tallies of plazas by star rating" width="100%"></a><br>
+<b><a href="https://skfd.github.io/guelph-plaza-bike-parking/">guelph-plaza-bike-parking</a></b> <sup><code>dev</code></sup><br>
+<sub>Stars for the plazas that make it easy to arrive by bike · <a href="https://github.com/skfd/guelph-plaza-bike-parking"><code>code</code></a></sub><br>
+<sub>31 of 68 open-air plazas have stars · 14 with a rack next door · 23 to go and look at</sub>
+</td>
+</tr>
+</table>
+
 <h3>Reference layers</h3>
 
-<p><sub>Tile layers you add to <b>iD</b> or <b>JOSM</b> as a background, each
+<p><sub>Tile layers you add to <b>iD</b> or <b>JOSM</b> as a background, most
 with a gap page listing what OSM is missing, misnaming, or leaving
 unnamed.</sub></p>
 
@@ -21,13 +42,13 @@ unnamed.</sub></p>
 <a href="https://guelph-maps.github.io/guelph-parks-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-parks-layer.jpg" alt="City park outlines and names over a grey OSM map of central Guelph" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-parks-layer/">guelph-parks-layer</a></b><br>
 <sub>126 City parks, outlined and named · <a href="https://guelph-maps.github.io/guelph-parks-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-parks-layer"><code>code</code></a></sub><br>
-<sub>100 match cleanly · 16 missing · 7 named differently · 3 unnamed in OSM</sub>
+<sub>13 missing · 7 named differently · 2 unnamed in OSM · 1 City placeholder name</sub>
 </td>
 <td valign="top" width="50%">
 <a href="https://guelph-maps.github.io/guelph-address-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-address-layer.jpg" alt="City address points drawn as house numbers, coloured by street, near Woolwich Street" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-address-layer/">guelph-address-layer</a></b><br>
-<sub>53,847 City address points, drawn as house numbers · <a href="https://github.com/guelph-maps/guelph-address-layer"><code>code</code></a></sub><br>
-<sub>40,634 civic addresses · 6.2% still missing from OSM · units on a quarter of rows · rebuilt daily</sub>
+<sub>55,895 City address points, drawn as house numbers · <a href="https://github.com/guelph-maps/guelph-address-layer"><code>code</code></a></sub><br>
+<sub>4,367 gaps filled in OSM in October 2026 · units on a quarter of rows · rebuilt daily</sub>
 </td>
 </tr>
 <tr>
@@ -35,27 +56,27 @@ unnamed.</sub></p>
 <a href="https://guelph-maps.github.io/guelph-buildings-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-buildings-layer.jpg" alt="City building outlines in violet over downtown Guelph" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-buildings-layer/">guelph-buildings-layer</a></b><br>
 <sub>38,945 City building outlines, for tracing · <a href="https://guelph-maps.github.io/guelph-buildings-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-buildings-layer"><code>code</code></a></sub><br>
-<sub>1,354 with no OSM building on them · 511 more under 30 m² · 111 drawn from site plans</sub>
+<sub>1,356 with no OSM building on them · 512 more under 30 m² · 112 drawn from site plans</sub>
 </td>
 <td valign="top" width="50%">
 <a href="https://guelph-maps.github.io/guelph-bus-stops-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-bus-stops-layer.jpg" alt="Guelph Transit stops as blue dots with stop numbers around Guelph Central Station" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-bus-stops-layer/">guelph-bus-stops-layer</a></b><br>
-<sub>648 Guelph Transit stops, by stop number · <a href="https://guelph-maps.github.io/guelph-bus-stops-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bus-stops-layer"><code>code</code></a></sub><br>
-<sub>111 missing · 9 lacking a ref · 68 unnamed · 9 named differently in OSM</sub>
+<sub>651 Guelph Transit stops, by stop number · <a href="https://guelph-maps.github.io/guelph-bus-stops-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bus-stops-layer"><code>code</code></a></sub><br>
+<sub>114 missing · 9 lacking a ref · 68 unnamed · 9 named differently in OSM</sub>
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
 <a href="https://guelph-maps.github.io/guelph-hydrants-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-hydrants-layer.jpg" alt="City fire hydrants as red dots along the streets of south-east Guelph" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-hydrants-layer/">guelph-hydrants-layer</a></b><br>
-<sub>3,537 City fire hydrants, matched by position · <a href="https://guelph-maps.github.io/guelph-hydrants-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-hydrants-layer"><code>code</code></a></sub><br>
-<sub>3,391 missing · 83 lacking a position · 16 lacking a type · 6 placed 10–30 m off in OSM</sub>
+<sub>3,545 City fire hydrants, matched by position · <a href="https://guelph-maps.github.io/guelph-hydrants-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-hydrants-layer"><code>code</code></a></sub><br>
+<sub>3,399 missing · 83 lacking a position · 16 lacking a type · 6 placed 10–30 m off in OSM</sub>
 </td>
 <td valign="top" width="50%">
 <a href="https://guelph-maps.github.io/guelph-trees-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-trees-layer.jpg" alt="City street and park trees as crowns coloured by genus around Royal City Park" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-trees-layer/">guelph-trees-layer</a></b><br>
-<sub>42,712 City street and park trees, by genus · <a href="https://guelph-maps.github.io/guelph-trees-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-trees-layer"><code>code</code></a></sub><br>
-<sub>34,523 with no OSM tree within 5 m · 452 cells with none at all · 8,032 mapped without species</sub>
+<sub>43,043 City street and park trees, by genus · <a href="https://guelph-maps.github.io/guelph-trees-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-trees-layer"><code>code</code></a></sub><br>
+<sub>34,842 with no OSM tree within 5 m · 453 cells with none at all · 8,064 mapped without species</sub>
 </td>
 </tr>
 <tr>
@@ -83,10 +104,12 @@ unnamed.</sub></p>
 <a href="https://guelph-maps.github.io/guelph-bike-layer/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-bike-layer.jpg" alt="City bike facilities coloured by type around Guelph Central Station: painted lanes in blue, buffered in violet, cycle tracks in green, a signed route dashed amber, crossrides in pink" width="100%"></a><br>
 <b><a href="https://guelph-maps.github.io/guelph-bike-layer/">guelph-bike-layer</a></b><br>
 <sub>210 km of City bike lanes, tracks, paths and signed routes, by type · <a href="https://guelph-maps.github.io/guelph-bike-layer/gaps/">gaps</a> · <a href="https://github.com/guelph-maps/guelph-bike-layer"><code>code</code></a></sub><br>
-<sub>15 new City installs not in OSM · 22 lane segments without their buffer · 16 unsigned route segments · rebuilt weekly</sub>
+<sub>9 new City installs not in OSM · 22 lane segments without their buffer · 3 unsigned route segments · rebuilt weekly</sub>
 </td>
 </tr>
 </table>
+
+<p><sub><i>Figures as of 2026-11-05; each page has the current count.</i></sub></p>
 
 <p><sub><i>More in progress:</i> pitches, truck routes, trails.</sub></p>
 
@@ -111,12 +134,20 @@ per-record history and somewhere to write down what a human decided.</sub></p>
 <h3>How this works</h3>
 
 <p><sub>
-Nothing here is bulk-imported. Every layer is compared against OSM first, and
-where OSM already has the object, the City data is a <i>reference</i> — it goes
-in front of a mapper, not into the database. Edits are made by people, one at a
-time, under the OSM
-<a href="https://wiki.openstreetmap.org/wiki/Import/Guidelines">import guidelines</a>
+Layers don't edit OSM. Every one is compared against OSM first, and the City
+data is a <i>reference</i> — it goes in front of a mapper, not into the
+database.
+</sub></p>
+
+<p><sub>
+The exception is addresses. Gap-fill and tag cleanups run from
+<a href="https://github.com/guelph-maps/guelph-address-import">guelph-address-import</a>,
+reviewed in batches and announced in the
+<a href="https://community.openstreetmap.org/t/import-addresses-from-city-of-guelph-data/135103">import's forum thread</a>,
+under the OSM <a href="https://wiki.openstreetmap.org/wiki/Import/Guidelines">import guidelines</a>
 and <a href="https://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct">automated edits code of conduct</a>.
+The full record is published in that repo. The bike parking map's survey was collected
+on site and uploaded through JOSM.
 </sub></p>
 
 <p><sub>

@@ -1,4 +1,5 @@
-"""Render a preview of each guelph-maps raster layer over a greyed OSM basemap."""
+"""Render a preview of each guelph-maps raster layer over a greyed OSM basemap,
+and of the pages that are not layers."""
 import sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -19,7 +20,13 @@ LAYERS = {
     "guelph-sidewalks-layer": (43.5170, -80.2770, 16),
     "guelph-bike-layer": (43.5440, -80.2475, 16),
 }
-only = sys.argv[2:] or list(LAYERS)
+
+# name: url, shot as the page itself rather than as tiles over a basemap
+PAGES = {
+    "guelph-bike-parking": "https://guelph.bike/?lat=43.5446&lng=-80.2489&zoom=15&legend=closed",
+    "guelph-plaza-bike-parking": "https://skfd.github.io/guelph-plaza-bike-parking/",
+}
+only = sys.argv[2:] or [*LAYERS, *PAGES]
 
 PAGE = """<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
@@ -38,6 +45,15 @@ L.tileLayer('https://guelph-maps.github.io/@NAME@/tiles/raster/{z}/{x}/{y}.png',
 with sync_playwright() as p:
     b = p.chromium.launch()
     for name in only:
+        if name in PAGES:
+            pg = b.new_page(viewport={"width": 1280, "height": 720})
+            pg.goto(PAGES[name], wait_until="load")
+            pg.wait_for_timeout(7000)
+            f = OUT / f"{name}.jpg"
+            pg.screenshot(path=str(f), type="jpeg", quality=82)
+            print(f.name, f.stat().st_size)
+            pg.close()
+            continue
         lat, lon, z = LAYERS[name]
         html = (PAGE.replace("@LAT@", str(lat)).replace("@LON@", str(lon))
                 .replace("@Z@", str(z)).replace("@NAME@", name))
