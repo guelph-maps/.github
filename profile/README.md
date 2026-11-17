@@ -9,9 +9,9 @@ actually happens.
 <p><sub><i>Guelph is not a blank map. The gap is rarely the features; it is
 almost always the attributes.</i></sub></p>
 
-<h3>For people on bikes</h3>
+<h3>For people on bikes and buses</h3>
 
-<p><sub>Maps for riders rather than mappers, built from OpenStreetMap.</sub></p>
+<p><sub>Maps for riders rather than mappers, built from OpenStreetMap and, for the buses, the City's transit plan.</sub></p>
 
 <table>
 <tr>
@@ -27,6 +27,15 @@ almost always the attributes.</i></sub></p>
 <sub>Stars for the plazas that make it easy to arrive by bike · <a href="https://github.com/skfd/guelph-plaza-bike-parking"><code>code</code></a></sub><br>
 <sub>31 of 68 open-air plazas have stars · 14 with a rack next door · 23 to go and look at</sub>
 </td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+<a href="https://guelph-maps.github.io/guelph-transit-animation/"><img src="https://raw.githubusercontent.com/guelph-maps/.github/main/profile/img/guelph-transit-animation.jpg" alt="Guelph Transit's proposed routes in the city's colours with buses on them, and a rider on the 92 beside a bicycle making the same trip, 18 minutes against 13" width="100%"></a><br>
+<b><a href="https://guelph-maps.github.io/guelph-transit-animation/">guelph-transit-animation</a></b><br>
+<sub>The 34 routes Guelph Transit proposes, with simulated buses through a weekday, Saturday or Sunday · <a href="https://github.com/guelph-maps/guelph-transit-animation"><code>code</code></a></sub><br>
+<sub>Send a rider anywhere by bus and a bicycle races them, parking at guelph.bike's racks · consultation open 9–27 November 2026</sub>
+</td>
+<td valign="top" width="50%"></td>
 </tr>
 </table>
 

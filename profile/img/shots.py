@@ -25,6 +25,13 @@ LAYERS = {
 PAGES = {
     "guelph-bike-parking": "https://guelph.bike/?lat=43.5446&lng=-80.2489&zoom=15&legend=closed",
     "guelph-plaza-bike-parking": "https://skfd.github.io/guelph-plaza-bike-parking/",
+    "guelph-transit-animation": "https://guelph-maps.github.io/guelph-transit-animation/",
+}
+
+# name: script run in the page once it has loaded, before the wait and the shot
+SCRIPTS = {
+    # a rider sent from Guelph Central Station to Gordon and Stone, the bicycle beside them
+    "guelph-transit-animation": "sim.sendRider([-80.2262, 43.5327])",
 }
 only = sys.argv[2:] or [*LAYERS, *PAGES]
 
@@ -48,6 +55,9 @@ with sync_playwright() as p:
         if name in PAGES:
             pg = b.new_page(viewport={"width": 1280, "height": 720})
             pg.goto(PAGES[name], wait_until="load")
+            if name in SCRIPTS:
+                pg.wait_for_timeout(5000)
+                pg.evaluate(SCRIPTS[name])
             pg.wait_for_timeout(7000)
             f = OUT / f"{name}.jpg"
             pg.screenshot(path=str(f), type="jpeg", quality=82)
